@@ -1,0 +1,64 @@
+### Android Studio/IntelliJ ###
+.idea/
+*.iml
+.gradle/
+local.properties
+out/
+
+### Gradle files ###
+.gradle
+build/
+!gradle-wrapper.jar
+
+### Android specific ###
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Uncomment the next line to ignore any .hprof files
+#*.hprof
+
+# Generated files
+/bin/
+/gen/
+
+### User-specific files ###
+*.swp
+*.swo
+*.log
+
+# Android Studio 3.1+ specific
+.idea/caches/
+.idea/libraries/
+
+# Android Studio project specific files
+.idea/modules.xml
+.idea/workspace.xml
+
+# Gradle Wrapper
+gradle-wrapper.properties
+
+### Other files to ignore ###
+# JetBrains IDEs
+.idea/
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Android Specific
+*.keystore
+*.jks
+
+# Firebase config files
+google-services.json
